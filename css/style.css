@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*header part*/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    background-color: rgb(58, 55, 55);
+    color: white;
+    font-weight: 200;
+    font-size: 0.75em;
+}
+img{
+    max-width: 100%;
+}
+.header ul{
+    list-style: none;
+    width: 950px;
+    padding: 0 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header ul li a{
+    opacity: 0.8;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+  
+}
+.header ul li{
+    padding: 14px 0 8px;
+    height:25px ;
+}
+.header ul li a:hover{
+    opacity: 1;
+}
+.logo, .search, .cart{
+    width: 18px;
+    display: block;
+    padding: 12px 0 10px;
+}
+.header ul li.logo{
+    padding: 12px 0 10px;  
+}
+.header ul li.search{
+    padding: 14px 0 8px;  
+}
+.header ul li.cart{
+    padding: 12px 0 10px;  
+}
+/*section part*/
+.mackBook-pro{
+    
+    padding: 20px 0;
+    text-align: center;
+    color: #050505;
+    background-color: #fdfdfe;
+}
+
+.mackBook-pro ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+  
+}
+.mackBook-pro ul li a{
+    color: #1d8de3;
+    text-decoration: none;
+}
+.mackBook-pro ul li a::after{
+   font-family: "FontAwesome";
+   content: "\f105";
+   padding: 10px 10px;
+}
+.model{font-size: 0.80em;}
+.mackBook-pro h1{
+    font-weight: 700;
+    font-size: 30px;
+}
+/*iphone 11*/
+
+.iPhone-11-pro{
+   background-image: url("../images/home/iphone11-pro-bg.jpg");
+   height: 400px;
+   background-position: center;
+   background-repeat: no-repeat;
+   text-align: center;
+   background-size: cover;
+   padding: 60px 22px;
+   color: #f5f5f7;
+}
+.iPhone-11-pro ul li a{
+  color: #1d8de3;
+  text-decoration: none;
+}
+.price{
+    color: #86868b;
+    font-size: 0.8em;
+}
+.iPhone-11-pro .description{
+font-size: 17px;
+padding: 12px 0;
+}
+.iPhone-11-pro .links-wrapper ul li{
+  padding-top: 20px;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+}
+.iPhone-11-pro .links-wrapper ul li a::after{
+    font-family: "FontAwesome";
+    content: "\f105";
+    padding: 10px 10px;
+ }
+ /*iphone 11*/
+
+.iPhone-11{
+    background-image: url("../images/home/iphone11-bg.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    color: black;
+    padding-top: 54px;
+ }
+ .price{
+     color: #86868b;
+     font-size: 0.8em;
+ }
+ .iPhone-11 .description{
+ font-size: 17px;
+ padding: 8px 0;
+ }
+ .iPhone-11 .links-wrapper ul li{
+  padding-top: 15px;
+     text-decoration: none;
+     list-style: none;
+     display: inline-block;
+ }
+ .iPhone-11 .links-wrapper ul li a{
+ color: #1d8de3;
+ text-decoration: none;
+ }
+ .iPhone-11 .links-wrapper ul li a::after{
+     font-family: "FontAwesome";
+     content: "\f105";
+     padding: 10px 10px;
+  }
+  /*section 4 */
+  .section-4{
+    background-color: #fff;
+    display: flex;
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background-position: center;
+
+  }
+ 
+  .section-4 .left{
+    margin: 1% 1% 1% 1%;
+    padding-top: 54px;
+    width: 49%;
+    height: 590px;
+    background-position: center;
+    text-align: center;
+    background-image: url(../images/home/watch-series-5.jpg);
+  }
+  .section-4 .left a{
+    color: #1d8de3;
+    text-decoration: none;
+  }
+  .section-4 .left ul{
+    display: inline-flex;
+    list-style: none;
+  }
+  .section-4 .left ul li ::after{
+    font-family: "FontAwesome";
+    content: "\f105";
+    padding: 10px 10px;
+  }
+  .section-4 .right{
+    margin: 1% 1% 1% 1%;
+
+    padding-top: 54px;
+    width: 49%;
+    height: 590px;
+    background-position: center;
+    text-align: center;
+    background-image: url(../images/home/watch-series-8.png);
+  }
+  .section-4 .right .links a::after{
+    font-family: "FontAwesome";
+    content: "\f105";
+    padding: 10px 10px;
+ }
+ .section-4 .right a{
+  color: #1d8de3;
+  text-decoration: none;
+ }
+  /*section 5 */
+  .section-5{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background-position: center;
+    background: #fff;
+
+  }
+ 
+  .section-5 .left{
+    margin: 1% 1% 1% 1%;
+
+    padding-top: 54px;
+    text-align: center;
+    color: #f5f5f7;
+    width: 49%;
+    height: 590px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background-image: url("../images/home/egir.png");
+    
+  }
+  .section-5 .left a{
+    color:#1d8de3 ;
+    text-decoration: none;
+  }
+.section-5 .left .tvshow-logo{
+  padding-top: 350px;
+  color: #f5f5f7;
+}
+
+
+  .section-5 .right{
+    margin: 1% 1% 1% 1%;
+
+    padding-top: 54px;
+    text-align: center;
+    color: #f5f5f7;
+    width: 49%;
+    height: 590px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background-image: url(../images/home/airpopd.png);
+  }
+  .section-5 .right ul{
+    list-style: none;
+    display: inline-flex;
+  }
+  .section-5 .right  a{
+    text-decoration: none;
+    color: #1d8de3;
+    text-decoration: none;
+}
+.section-5 .right  ul li a::after{
+  font-family: "FontAwesome";
+  content: "\f105";
+  padding: 10px 10px;
+}
+
+
+
+  /*section 4 */
+  .section-6{
+    margin: 1% 1% 1% 1%;
+    display: flex;   
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background-position: center;
+
+  }
+ 
+  .section-6 .left{
+    margin: 1% 1% 1% 1%;
+    width: 49%;
+    height: 590px;
+    background-position: center;
+    text-align: center;
+
+    
+    background-image: url(../images/home/apple-card.jpg);
+  }
+  .section-6 .left .top{
+    padding-top: 60px;
+  }
+  .section-6 .left .links ul{
+    list-style: none;
+    display: inline-flex;
+  }
+  .section-6 .left .links ul li a{
+    color: #1d8de3;
+    text-decoration: none;
+
+  }
+  .section-6 .left  ul li a::after{
+    font-family: "FontAwesome";
+    content: "\f105";
+    padding: 10px 10px;
+  }
+  .section-6 .right{
+    margin: 1% 1% 1% 1%;
+
+    text-align: center;
+    width: 49%;
+    height: 590px;
+    background-position: center;
+    background-image: url(../images/home/right6.png);
+  }
+  .section-6 .right .links ul{
+    padding-top: 165px;
+    list-style: none;
+    display: inline-flex;
+  }
+  .section-6 .right .links ul li a{
+    color: #1d8de3;
+    text-decoration: none;
+  }
+  .section-6 .right  ul li a::after{
+    font-family: "FontAwesome";
+    content: "\f105";
+    padding: 10px 10px;
+  }
+
+/*footer part*/
+
+.footer-text{
+    width: 920px;
+    color: #515154;;
+    font-size: .9em;
+    margin: 0 auto;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(15, 15, 15);
+}
+.footer-text a{
+    color: black;
+    text-decoration: none;
+
+}
+.footer-text a:hover{
+    text-decoration: underline;
+}
+.footer-text  .fotter-text-between{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.footer-text  .fotter-text-bottom{
+   
+    padding-bottom: 10px;
+}
+footer {
+    background-color: #f5f5f7;
+    
+}
+footer .footer-content{
+    color:  #515154;;
+    font-size: .9em;
+}
+.footer-content{
+    padding: 17px 0;
+    margin: 0 auto;
+    width: 920px;
+    display: flex;
+    -webkit-box-pack: justify;
+justify-content: space-between;}
+
+.footer-content ul li{
+    padding: 5px 0 ;
+    list-style: none;
+    
+}
+.footer-content ul li a{
+    text-decoration: none;
+
+  color: black;
+  opacity: 0.7;
+    
+}
+.footer-content ul li a:hover{
+    text-decoration: underline;
+    opacity: 1;
+      
+  }
+  .fotter-wrapper-shop{
+    font-size: 15px;
+    color:  #515154;;
+    width: 950px;
+   padding-bottom: 10px;
+    margin: 0 auto;
+    border-bottom: 1px solid #1d1d1f ;
+  }
+  .fotter-wrapper-shop a{
+    text-decoration: none;
+    color: #1d8de3;
+  }
+  .fotter-wrapper-shop a:hover{
+    text-decoration: underline;
+    
+  }
+
+  .fotter-wrapper6{
+    font-size: 15px;
+
+    display: flex;
+    width: 950px;
+    padding: 0 10px;
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 10px 0;
+    color:  #515154;;
+  }
+  .fotter-wrapper6 .fotter-wrapper6-terms{
+
+    width: 430;
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+   
+
+  }
+  .fotter-wrapper6 .fotter-wrapper6-terms ul{
+    display: flex;
+    list-style: none;
+
+    
+   
+  }
+  .fotter-wrapper6-terms ul li{
+    display: inline-block;
+    padding: 0 5px;
+    border-right: 1px solid rgb(202, 188, 188);
+    
+  }
+  .fotter-wrapper6 .fotter-wrapper6-terms ul li a{
+    color:  #515154;;
+    text-decoration: none;
+    font-size: 13px;
+
+  }
+  .fotter-wrapper6 .fotter-wrapper6-terms ul li a:hover{
+   
+    text-decoration: underline;
+    opacity: 1;
+
+  }
+  .fotter-wrapper6-country{
+     display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+  }
